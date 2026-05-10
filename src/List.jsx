@@ -19,15 +19,16 @@ function List(props){
     
     //reusable list ocmponent
 
-    const category = props.categort;
+    const category = props.category;
     const itemList = props.items;
-    const listItems = itemList.map(item => <li key = {item.name}>
+    const listItems = itemList.map(item => <li key = {item.id}>
                                                     {item.name}:&nbsp;
                                                     {item.calories}</li>);
     
     return(<> 
-            <h3>{category}</h3><ol>{listItems}</ol>;
-        </>)
+            <h3 className="list-category"> {category} </h3>
+            <ol className="list-items"> {listItems} </ol>
+        </>);
 }
 
 export default List

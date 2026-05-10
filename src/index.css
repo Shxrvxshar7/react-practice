@@ -29,3 +29,25 @@ font-family: 'Arial Narrow', Arial, sans-serif;
   margin: 0;
 
 }
+
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(60, 56%, 91%);
+}
+
+.list-items li{
+  font-size: hsl(0, 0%, 45%);
+  cursor: pointer;
+  text-align: center;
+}
+
+.list-items li.hover{
+  color: rgb(33, 73, 73);
+  cursor: pointer;
+}
