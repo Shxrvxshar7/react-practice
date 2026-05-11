@@ -36,6 +36,7 @@ export default App
 
 */
 
+/*
 // Redndering lists
 
 import List from "./List.jsx"
@@ -51,12 +52,23 @@ function App(){
         {id: 6, name:"cuumvber",calories: 25}, // Use id for keeping track in real systems
         {id: 7, name:"carot",calories: 60},
         {id: 8, name:"brocolli",calories: 90}]
+  //conditional redering if there are no elments then dont render the list category box 
   return(
     <> 
-      {/* conditional redering if there are no elments then dont render the list category box */}
+      
+/*
     {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
     {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}
     </>
   );
 }
+export default App
+
+*/
+
+import Button from "./Button.jsx"
+function App() {
+  return(<Button/> );
+}
+
 export default App
